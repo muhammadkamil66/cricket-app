@@ -1,5 +1,5 @@
 $.ajax({
-    url:"http://cricapi.com/api/playerStats?apikey=GOIFHgTgUOggFpxfp6NmzPa2j4E3&pid=42639",
+    url:"https://cricapi.com/api/playerStats?apikey=GOIFHgTgUOggFpxfp6NmzPa2j4E3&pid=42639",
     success: function(data){
 
         let listA = data.data.batting.listA.Runs;
